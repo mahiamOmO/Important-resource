@@ -1,0 +1,5 @@
+echo 'export USER="mahiamomo"
+export USERNAME="mahiamomo"
+export LOGNAME="mahiamomo"' >> ~/.bashrc
+sudo chmod +x /usr/local/bin/eza
+exec bash
