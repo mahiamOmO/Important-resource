@@ -1,0 +1,6 @@
+-- ১. ওহ-মাই-পশ থিম লোড
+load(io.popen('oh-my-posh init cmd --config "C:\\Users\\HP\\Downloads\\terminal\\capr4n.omp.json"') :read("*a"))() --cmd
+
+-- ২. সিএমডিতে 'ls' লিখলে যাতে পাওয়ারশেলের মতো কালারফুল ফাইল আইকন দেখায়
+os.execute('doskey ls=eza --icons=always --color=always -a')
+os.execute('doskey dir=eza --icons=always --color=always -a')

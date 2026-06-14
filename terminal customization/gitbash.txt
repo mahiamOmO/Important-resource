@@ -1,0 +1,5 @@
+eval "$(oh-my-posh init bash --config 'C:/Users/HP/Downloads/terminal/capr4n.omp.json')"
+
+alias ls='ls --color=auto'
+alias ll='ls -la --color=auto'
+alias l='ls -CF --color=auto'  //gitbash
